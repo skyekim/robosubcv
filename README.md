@@ -4,8 +4,8 @@
 
 # 1. Clone and Install YOLOv5 and Dependencies
 
-$ git clone https://github.com/ultralytics/yolov5 "\n"
-$ cd yolov5 \n
+$ git clone https://github.com/ultralytics/yolov5
+$ cd yolov5
 $ pip install -r requirements.txt
 
 # 2. Get and Prepare Data
