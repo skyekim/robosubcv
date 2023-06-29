@@ -1,3 +1,7 @@
+"""
+Program to split dataset including images and labels into training and validation data based on given split percentage.
+"""
+
 import os
 import shutil
 import random
