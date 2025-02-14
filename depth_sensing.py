@@ -1,5 +1,8 @@
 """ Calculates the 3D distance from the camera's internal optical center to whatever object is 
-visible at the center of the camera's field of view """
+visible at the center of the camera's field of view in milimeters 
+
+ex: Distance to Camera at {640;360}: 1893.0105248513803
+"""
 
 import pyzed.sl as sl
 import math
