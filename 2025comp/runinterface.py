@@ -24,6 +24,9 @@ try:
         if zed.grab() == sl.ERROR_CODE.SUCCESS:
             zed.retrieve_image(image, sl.VIEW.LEFT)
             frame = image.get_data()  # NumPy array in RGB format
+            frame = frame[:, :, :3]  # now shape is (720, 1280, 3)
+            print(frame.shape)
+
 
             # Run YOLO inference
             results = model.predict(frame)
